@@ -1,12 +1,13 @@
 fetch('https://v2.jokeapi.dev/joke/Any?safe-mode')
   .then((response) => response.json())
-  .then((data) => console.log(data){
+.then((data) =>  {
+
+
 //Step 1 Access the img element
-let imageElement = document.getElementById("random-imgae");
+document.getElementById("random-imgae")
 
-
-
-
-
-
-  });
+// Step 2 store the image from data to 
+// The img element
+.log(data.message)
+.src = data.message
+});
